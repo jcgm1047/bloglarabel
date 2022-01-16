@@ -8,6 +8,6 @@ class homeController extends Controller
 {
     public function __invoke()
     {
-        return "estoy siendo enviado desde la carpeta contrroller ";
+        return view('home');
     }
 }
